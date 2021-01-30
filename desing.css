@@ -19,8 +19,29 @@ body{
 }
 #welcome{
     background: linear-gradient(#2cd4d1 0%, #b82cd4 100%);
+    z-index: 9;
 }
 p{
     max-width: 450px;
-    font-size: 30px;
+    font-size: 20px;
+    margin: 25px auto;
+}
+.menu{
+    list-style: none;
+    position:absolute;
+    top:10px;
+    right: 30px;
+    cursor: pointer;
+    font-family: 'Hachi Maru Pop', cursive;
+    z-index: 10;
+}
+.links{
+    float: left;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.links:hover{
+    background-color: #5736ff;
 }
