@@ -1,0 +1,26 @@
+body{
+    text-align:center;
+}
+.profile{
+    border-radius: 50%;
+    width: 175px;
+    margin-bottom: 50px;
+}
+#name{
+    font-size: 30px;
+    font-family: cursive;
+    line-height: 1.2;
+}
+.line{
+    height: 6px;
+    background-color: #000000;
+    width: 70px;
+    margin: 8px auto;
+}
+#welcome{
+    background: linear-gradient(#2cd4d1 0%, #b82cd4 100%);
+}
+p{
+    max-width: 450px;
+    font-size: 30px;
+}
